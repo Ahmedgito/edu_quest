@@ -66,19 +66,19 @@ const Button = () => {
 }
 
 const StyledWrapper = styled.div`
-  button {
-    position: relative;
-    padding: 12px 35px;
-    background:rgb(255, 252, 252);
-    font-size: 17px;
-    font-weight: 500;
-    color:rgb(58, 130, 255);
-    border: 3px solid rgb(58, 130, 255);
-    border-radius: 8px;
-    box-shadow: 0 0 0 #fec1958c;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
+ button {
+  position: relative;
+  padding: 12px 35px;
+  background:rgba(20, 20, 20, 0.93);
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(44, 244, 124); /* Neon green text */
+  border: 3px solid rgb(44, 244, 124); /* Neon border */
+  border-radius: 8px;
+   box-shadow: 0 0 25px rgba(255, 255, 255, 0.38);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 
   .star-1 {
     position: absolute;
@@ -148,7 +148,7 @@ const StyledWrapper = styled.div`
 
   button:hover {
     background: transparent;
-    color: rgb(58, 130, 255);
+    color: rgb(81, 255, 151);
     box-shadow: 0 0 25px #fec1958c;
   }
 

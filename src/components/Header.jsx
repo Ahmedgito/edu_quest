@@ -54,7 +54,7 @@ export default function Header() {
                     </Link>
                     <Link
                         href="/register"
-                        className="px-4 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-pulse shadow-lg shadow-pink-500/50 hover:shadow-purple-500/70 transition"
+                        className="px-4 py-2 rounded-lg text-white font-semibold  bg-gradient-to-r from-blue-500 to-green-400 animate-pulse shadow-lg shadow-blue-500/50 hover:shadow-green-500/70 transition"
                     >
                         Register Now
                     </Link>
@@ -103,7 +103,7 @@ export default function Header() {
                                 <Link
                                     href="/register"
                                     onClick={() => setIsOpen(false)}
-                                    className="px-4 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-pulse shadow-lg shadow-pink-500/50 hover:shadow-purple-500/70 transition"
+                                    className="px-4 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-blue-500 to-green-400 animate-pulse shadow-lg shadow-blue-500/50 hover:shadow-green-500/70 transition"
                                 >
                                     Register Now
                                 </Link>
