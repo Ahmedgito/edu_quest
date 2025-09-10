@@ -41,7 +41,7 @@ const Section1 = () => {
                 <div className="flex md:mt-10 mt-5 justify-center space-x-4">
                     <Link
                         href="/competitions"
-                        className="px-12 py-2 text-lg flex items-center justify-center rounded-lg text-white font-semibold bg-gradient-to-r from-blue-500 to-green-400 animate-pulse shadow-lg shadow-blue-500/50 hover:shadow-green-500/70 transition"
+                        className=" px-10 md:px-12 py-2 text-lg flex items-center justify-center rounded-lg text-white font-semibold bg-gradient-to-r from-blue-500 to-green-400 animate-pulse shadow-lg shadow-blue-500/50 hover:shadow-green-500/70 transition"
                     >
                         Register Now
                     </Link>
